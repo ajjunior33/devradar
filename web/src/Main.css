@@ -8,6 +8,9 @@ main ul {
     list-style: none;
 }
 @media(max-width:650px){
+    main{
+        width:100%;
+    }
     main ul{
         grid-template-columns: 1fr;
     }

@@ -2,7 +2,11 @@ const express = require('express');
 const mongoose = require('mongoose');
 const routes = require('./routes');
 const cors = require('cors');
+const http = require('http');
 
+
+const port = 3344;
+const ip = '192.168.15.45';
 
 const app = express();
 
@@ -17,4 +21,7 @@ app.use(routes);
 
 
 
-app.listen(3344);
+app.listen(port,ip, () => {
+    console.log(`Servidor rodando em http://${ip}:${port}`)
+    console.log('Para derrubar o servidor: ctrl + c');
+});
