@@ -66,3 +66,18 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `yarn build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
+
+# Obs
+## Componente:
+> Um bloco isolado de conteudo (HTML, CSS, JavaScript). O qual não interfere no resto da aplicação.
+## Propriedade
+> Informações que um componente PAI passa para o componente filho.
+## Estado
+> Informações mantidas pelo componente ( Lembrar : imutabilidade).
+
+
+# A fazer
+
+- [ ] Criar um botão para excluir o usuario.
+- [ ] Criar um botão para editar o usuario.

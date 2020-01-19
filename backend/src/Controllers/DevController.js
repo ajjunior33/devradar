@@ -14,7 +14,10 @@ module.exports = {
 
             let url_axios = `https://api.github.com/users/${github_username}`;
             const response = await axios.get(url_axios);
-            const {name = login, avatar_url, bio } = response.data;
+            let {name, avatar_url, bio } = response.data;
+            if(name == null){
+                name = response.data.login;
+            }
             const arrayTechs = parseStringAsArray(techs);
             console.log(arrayTechs);
         
