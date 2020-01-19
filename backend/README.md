@@ -32,4 +32,4 @@
 # Atividades 
 
 - [x] Atualizar um cadastro
-- [ ] Deletar um caadstro
+- [x] Deletar um caadstro
