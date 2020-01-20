@@ -33,6 +33,6 @@
 
 - [x] Atualizar um cadastro
 - [x] Deletar um caadstro
-- [ ] Filtrar as conexões
+- [x] Filtrar as conexões
 > Conexões que estão no maximo a 10km de distancia e que o novo dev tenha pelo menos 
 > uma das techs filtradas.
